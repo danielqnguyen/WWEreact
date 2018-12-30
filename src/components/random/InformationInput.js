@@ -24,7 +24,7 @@ class InformationInput extends Component {
   }
 
   geoError() {
-    alert("Geocoder failed.");
+    alert("Current Location Not Found");
   }
 
   onChange = evt => {
@@ -69,8 +69,7 @@ class InformationInput extends Component {
         </div>
         <div className="card container p2 col-md-6" style={{ width: "350px" }}>
           <h2>Two options</h2>
-          <p>1. Just Press Search and it will search for food in your current location</p>
-          <p>2. Or fill out the information as you feel fit</p>
+          <p>1. Fill in the type of food you'd like or just food, then a location and a price range.</p>
           <p>Price Ranges: $(all), 1(~$10), 2($11-$30), 3($31-$60), 4($61+)</p>
         </div>
       </React.Fragment >
