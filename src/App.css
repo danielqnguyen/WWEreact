@@ -1,0 +1,50 @@
+.App {
+  text-align: auto;
+}
+
+.background {
+  background-image: url("1.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-header {
+  background-color: #ffffff !important;
+  border-bottom: 0px
+}
+
+.test {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.w3-container {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.test1{
+  padding-top: 10px
+}
+
+.test3{
+  padding-bottom: 10px
+}
+
+@media screen and (max-height: 700px) 
+{
+  .p2{
+    overflow: auto;
+    height: 500px
+  }
+
+}
