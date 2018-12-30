@@ -1,5 +1,4 @@
 {
-  "proxy": "http://WWEQ.test",
   "name": "personal",
   "version": "0.1.0",
   "private": true,
