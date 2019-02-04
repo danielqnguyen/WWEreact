@@ -9,7 +9,8 @@ class FoodRandomizer extends React.Component {
     this.state = {
       location: '',
       restaurant: [],
-      activeSlide: 0
+      activeSlide: 0,
+      price: ''
     };
     this.pause = this.pause.bind(this);
     this.play = this.play.bind(this);
