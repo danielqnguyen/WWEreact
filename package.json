@@ -13,13 +13,14 @@
     "react-redux": "^6.0.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1",
+    "react-scripts": "^2.1.5",
     "react-slick": "^0.23.2",
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6",
     "redux-promise-middleware": "^5.1.1",
     "redux-thunk": "^2.3.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "twilio": "^3.28.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,7 +37,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "jest": "^23.6.0"
-  }
+  "devDependencies": {}
 }
