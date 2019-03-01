@@ -45,6 +45,7 @@ class FoodRandomizer extends React.Component {
     const list = this.state.restaurant.map((item, index) => {
       return <div key={index}>
         <img src={item.image_url}
+          className="sImg"
           height="300px"
           width="300px"
           alt={item.name}

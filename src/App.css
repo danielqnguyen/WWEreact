@@ -10,6 +10,7 @@
   min-height: 100%;
   min-width: 100%;
   position: absolute;
+  width: 100%;
 }
 
 .card{
@@ -32,5 +33,4 @@
     overflow: hidden;
     width: 100%;
   }
-
 }
