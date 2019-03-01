@@ -12,15 +12,13 @@
   position: absolute;
 }
 
+.card{
+  border-radius: 0.5rem
+}
+
 .card-header {
   background-color: #ffffff !important;
   border-bottom: 0px
-}
-
-.test {
-  position: relative;
-  width: 100%;
-  height: 500px;
 }
 
 .w3-container {
@@ -28,19 +26,10 @@
   padding-left: 16px;
 }
 
-.test1{
-  padding-top: 10px
-}
-
-.test3{
-  padding-bottom: 10px
-}
-
 @media screen and (max-height: 700px) and (min-height: 400px)
 {
   .p2{
     overflow: hidden;
-    height: 200px;
     width: 100%;
   }
 

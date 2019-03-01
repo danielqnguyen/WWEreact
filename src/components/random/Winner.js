@@ -36,7 +36,7 @@ class Winner extends React.Component {
     });
     return (
       <React.Fragment>
-        <div className="container-fluid flex-grow-1 container-p-y test1">
+        <div className="container-fluid flex-grow-1 container-p-y">
           <div className="card mb-4 col-md-5 offset-md-3 p2">
             <div className="card-header">
               <h2>{this.state.information.name}</h2>
